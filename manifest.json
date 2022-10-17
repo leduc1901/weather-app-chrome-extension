@@ -1,0 +1,17 @@
+{
+    "name": "Your weather app",
+    "version": "1.0",
+    "description": "A very simple weather extension for Chrome",
+    "manifest_version": 3,
+    "permissions": [
+        "geolocation"
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    }
+}
